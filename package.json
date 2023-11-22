@@ -1,0 +1,22 @@
+{
+  "name": "testunit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuanAddiel/TestUnit-Nodejs.git"
+  },
+  "author": "Juan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JuanAddiel/TestUnit-Nodejs/issues"
+  },
+  "homepage": "https://github.com/JuanAddiel/TestUnit-Nodejs#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
