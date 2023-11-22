@@ -16,10 +16,10 @@ jobs:
     - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '14'
+          node-version: '18.2'
 
     - name: Install dependencies
       run: npm install
 
     - name: Run unit tests
-      run: npx jest index.test.js
+      run: npm test
