@@ -3,20 +3,20 @@ name: Run Test
 on:
   push:
     branches:
-    -main 
+    - main
 
 jobs:
   test:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout code
-      uses: actions/setup-node@v2
+    - name: Checkout repository
+      uses: actions/checkout@v2
 
     - name: Setup Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: '18.2'
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'  # Ajusta la versión de Node.js según tus necesidades
 
     - name: Install dependencies
       run: npm install
